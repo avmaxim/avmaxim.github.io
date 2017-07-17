@@ -1367,7 +1367,7 @@ h6 {
 @media (max-width: 970px) {
     .header-image-text {
         width: auto;
-        min-width: 85%;
+        min-width: 100%;
     }
 }
 
@@ -1393,13 +1393,6 @@ h6 {
 
 .headline-cta-footer{
     margin: 0 auto;
-}
-
-@media (min-width: 641px) {
-
-    .headline-cta-footer{
-        width: 85%;
-    }
 }
 
 .header-image-text .header-up-text {
@@ -3747,6 +3740,12 @@ span.highlighted-description {
     font-weight: 300;
     max-width: 100%;
     border-radius: 5px; }
+
+@media (max-width: 768px) and (min-width: 641px) {
+    .coupon-form .button {
+        font-size: 17px;
+    }
+}
 
 label.error {
     position: absolute;

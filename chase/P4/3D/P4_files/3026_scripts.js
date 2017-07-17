@@ -283,7 +283,7 @@ var Chase = {
                 return false;
             }
 
-            window.location.href = '/chase/p4/4D/p4-success.html';
+            window.location.href = '/chase/P4/3D/p4-success.html';
         });
 
         $('#email-btn-bottom').click(function(){

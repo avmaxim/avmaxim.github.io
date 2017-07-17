@@ -266,7 +266,7 @@ var Chase = {
         });
 
         $('.product-details-link').on('click', function () {
-            ChaseAccordion.toggleDetailAccordion();
+            ChaseAccordion.openDetailAccordion();
             $('html, body').animate({
                 scrollTop: $(".accordion-details").offset().top - 60
             }, 400);

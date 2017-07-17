@@ -254,7 +254,7 @@ var Chase = {
         }
 
         $('.product-details-link').on('click', function () {
-            ChaseAccordion.openAccountAccordion();
+            ChaseAccordion.openDetailAccordion();
             $('html, body').animate({
                 scrollTop: $(".accordion-details").offset().top - 60
             }, 400);

@@ -132,8 +132,8 @@ $(window).on('load', function(){
         },
 
         openDetailAccordion: function () {
-
-            window.ChaseAccordion.toggleDetailAccordion();
+            $('.accordion-body').css('display', 'block');
+            $('.tap-js').addClass('collapsed').text('-')
         }
     };
 

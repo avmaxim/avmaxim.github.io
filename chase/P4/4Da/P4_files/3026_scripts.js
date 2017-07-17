@@ -253,6 +253,18 @@ var Chase = {
             $body.addClass('ie' + ie);
         }
 
+        $('.accordion-details-link').click(function () {
+            Modal('#account-details-modal').open();
+        });
+
+        $('.accordion-tap-js').click(function () {
+            ChaseAccordion.toggleDetailAccordion();
+        });
+
+        $('.accordion-details-link').click(function () {
+            ChaseAccordion.openDetailAccordion();
+        });
+
         $('.product-details-link').on('click', function () {
             ChaseAccordion.toggleDetailAccordion();
             $('html, body').animate({

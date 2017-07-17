@@ -96,7 +96,7 @@ var Modal = (function($, window, undefined){
 
 /*****************  Chase Accordion ********************/
 
-$(function(){
+$(window).on('load', function(){
     window.ChaseAccordion = {
         openAccountAccordion: function () {
             var balance = 0,
@@ -137,18 +137,6 @@ $(function(){
             window.ChaseAccordion.toggleDetailAccordion();
         }
     };
-
-    $('.accordion-details-link').click(function () {
-        Modal('#account-details-modal').open();
-    });
-
-    $('.accordion-tap-js').click(function () {
-        ChaseAccordion.toggleDetailAccordion();
-    });
-
-    $('.accordion-details-link').click(function () {
-        ChaseAccordion.openDetailAccordion();
-    });
 
 }());
 

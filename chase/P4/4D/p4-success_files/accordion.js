@@ -80,9 +80,12 @@ var Modal = (function($, window, undefined){
                 $modal.css('position',  isAbandonHeightBiggerThanWindow ? 'absolute' :  'fixed');
                 $modal.css('left', w >= modalMaxWidth ? leftModalPos : 0);
 
-                $modal.css("top", (isAbandonHeightBiggerThanWindow ? $(window).scrollTop() : 50 ));
+                $modal.css("top",  50 );
 
                 $overlay.height( documentHeight);
+                $('html,body').animate({
+                    scrollTop:  50
+                }, 700);
 
                 oldWidth = w;
             }, 500);
@@ -129,10 +132,6 @@ $(window).on('load', function(){
         },
 
         openDetailAccordion: function () {
-
-            $('html, body').animate({
-                scrollTop: $('.accordion-details').offset().top - 60
-            }, 400);
 
             window.ChaseAccordion.toggleDetailAccordion();
         }

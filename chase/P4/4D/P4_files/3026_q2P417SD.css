@@ -1426,7 +1426,7 @@ h6 {
 
         font-size: 48px;
         line-height: 1.1;
-        padding: 105px 25px 25px;
+        padding: 105px 0 25px;
         text-align: center;
     }
 
@@ -1988,6 +1988,7 @@ label.error {
 .steps {
     padding-top: 20px;
     width: 100%;
+    pointer-events: none;
     margin: 0 auto;
     padding-bottom: 15px;
     position: relative;

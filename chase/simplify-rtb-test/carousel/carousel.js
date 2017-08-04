@@ -10,11 +10,9 @@ var Carousel = (function($){
                 jcarousel.jcarousel('items').width(jcarousel.innerWidth());
             })
             .on("swipeleft",function(){
-                alert('left');
                 jcarousel.jcarousel('scroll', '+=1');
             })
             .on("swiperight", function(){
-                alert('right');
                 jcarousel.jcarousel('scroll', '-=1');
             })
             .jcarousel({
@@ -24,7 +22,7 @@ var Carousel = (function($){
                     transforms:   Modernizr.csstransforms,
                     transforms3d: Modernizr.csstransforms3d,
                     easing:       'ease'
-                } : alert('oops')
+                } : false;
             });
 
         if (defaults.hasPrevNextButtons) {

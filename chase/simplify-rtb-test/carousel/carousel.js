@@ -15,12 +15,14 @@ var Carousel = (function($){
                 }
             })
             .on("swipeleft",function(){
+                alert('left');
                 jcarousel.jcarousel('scroll', '+=1');
                 if (defaults.updateArrowsOnEndpoint) {
                     updateCarouselArrows();
                 }
             })
             .on("swiperight", function(){
+                alert('right');
                 jcarousel.jcarousel('scroll', '-=1');
                 if (defaults.updateArrowsOnEndpoint) {
                     updateCarouselArrows();

@@ -188,6 +188,79 @@
 
 }
 
+@media (max-width: 568px) {
+    .jcarousel-control-prev:after, 
+    .jcarousel-control-prev:before, 
+    .jcarousel-control-next:after, 
+    .jcarousel-control-next:before {
+        height: 56px;
+    }
+
+    .jcarousel-control-next:after,
+    .jcarousel-control-prev:after{
+        top: 42px;
+    }
+
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-header, 
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-description{
+        font-size: 24px;
+    }
+
+    .jcarousel-rtb .rtb-header-line,
+    .jcarousel-rtb .rtb-footer-line {
+        font-size: 32px;
+    }
+
+    .jcarousel-rtb .rtb-footer-line {
+        padding-top: 10px;
+    }
+
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-header{
+        line-height: 26px;
+    }
+
+    .jcarousel-control-next:after, .jcarousel-control-prev:after {
+        top: 34px;
+    }
+
+    .jcarousel-control-prev:after, .jcarousel-control-prev:before, .jcarousel-control-next:after, .jcarousel-control-next:before {
+        height: 45px;
+    }
+
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img1,
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img2,
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img3,
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img4,
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img5,
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img6{
+        background-size: 237px 234.4px;
+        background-position: -42px -42px;
+        height: 142.4px;
+        width: 153.6px;
+        margin-bottom: 20px;
+    }
+
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img2{
+        background-position-x: -54px;
+    }
+
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img3{
+        background-position-x: -58px;
+    }
+
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img5{
+        background-position-x: -37px;
+    }
+
+    .jcarousel-rtb .rtb-row .rtb-column .rtb-column-img6{
+        background-position-x: -73px;
+    }
+
+    .rtb-item-wrapper {
+        max-width: 300px;
+    }
+}
+
 @media (min-width: 641px) {
     .jcarousel-rtb .rtb-row .rtb-column {
         width: 310px !important;

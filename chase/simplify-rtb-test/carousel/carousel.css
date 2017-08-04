@@ -18,6 +18,11 @@
 
 @media (max-width: 640px) {
 
+    .jcarousel-rtb .rtb-header-line {
+        width: calc(100% - 60px);
+        font-size: 41px;
+    }
+
     .jcarousel-wrapper {
         position: relative;
         min-height: 330px;
@@ -175,11 +180,6 @@
     .jcarousel-rtb .rtb-row .rtb-column .rtb-column-description{
         line-height: 40px;
 
-    }
-
-    .jcarousel-rtb .rtb-header-line {
-        font-size: 41px;
-        width: 100%;
     }
 
      .jcarousel-rtb .rtb-footer-line {
@@ -348,6 +348,16 @@
 
     .jcarousel-rtb .rtb-row .rtb-column .rtb-column-header, .jcarousel-rtb .rtb-row .rtb-column .rtb-column-description {
         font-size: 21px;
+    }
+}
+
+@media (max-width: 400px){
+    .rtb-item-wrapper {
+        max-width: 180px;
+    }
+
+    .jcarousel-rtb .rtb-header-line, .jcarousel-rtb .rtb-footer-line {
+        font-size: 29px;
     }
 }
 

@@ -112,7 +112,7 @@
         border: none;
         margin: 0;
         padding-top: 5px;
-        padding-bottom: 40px;
+        padding-bottom: 0;
     }
 
     .jcarousel-rtb .rtb-row {
@@ -176,6 +176,16 @@
         line-height: 40px;
 
     }
+
+    .jcarousel-rtb .rtb-header-line {
+        font-size: 41px;
+        width: 100%;
+    }
+
+     .jcarousel-rtb .rtb-footer-line {
+        font-size: 41px;
+    }
+
 }
 
 @media (min-width: 641px) {

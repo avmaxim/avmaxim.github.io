@@ -197,7 +197,7 @@
     }
 
     .jcarousel-control-next:after,
-    .jcarousel-control-prev:after{
+    .jcarousel-control-prev:after {
         top: 42px;
     }
 
@@ -212,7 +212,7 @@
     }
 
     .jcarousel-rtb .rtb-footer-line {
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     .jcarousel-rtb .rtb-row .rtb-column .rtb-column-header{

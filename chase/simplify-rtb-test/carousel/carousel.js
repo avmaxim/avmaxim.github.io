@@ -22,7 +22,7 @@ var Carousel = (function($){
                     transforms:   Modernizr.csstransforms,
                     transforms3d: Modernizr.csstransforms3d,
                     easing:       'ease'
-                } : false;
+                } : false
             });
 
         if (defaults.hasPrevNextButtons) {
